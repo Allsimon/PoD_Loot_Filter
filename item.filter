@@ -494,7 +494,7 @@ ItemDisplay[RW ETH]: %GRAY%E.%NAME%%WHITE%[%GRAY%Lv.%ILVL%%WHITE%]
 //─────────────────────────────────────────────────────────────────────────────────────────────────
 // Bows
 //─────────────────────────────────────────────────────────────────────────────────────────────────
-//ItemDisplay[(NMAG OR (RARE AND !ID)) WP9 !(WP10 OR CL7)]: //Ignore All Bows Except Crossbows and Amazon Bows
+ItemDisplay[(NMAG OR (RARE AND !ID)) WP9 !(WP10 OR CL7)]: //Ignore All Bows Except Crossbows and Amazon Bows
 //ItemDisplay[(NMAG OR (RARE AND !ID)) (sbw OR 8sb OR 6sb)]: //Ignore Short Bow, Edge Bow, and Spider Bow
 //ItemDisplay[(NMAG OR (RARE AND !ID)) (hbw OR 8hb OR 6hb)]: //Ignore Hunter's Bow, Razor Bow, and Blade Bow
 //ItemDisplay[(NMAG OR (RARE AND !ID)) (lbw OR 8lb OR 6lb)]: //Ignore Long Bow, Cedar Bow, and Shadow Bow
@@ -506,7 +506,7 @@ ItemDisplay[RW ETH]: %GRAY%E.%NAME%%WHITE%[%GRAY%Lv.%ILVL%%WHITE%]
 //─────────────────────────────────────────────────────────────────────────────────────────────────
 // Crossbows
 //─────────────────────────────────────────────────────────────────────────────────────────────────
-//ItemDisplay[(NMAG OR (RARE AND !ID)) WP10]: //Ignore All Crossbows
+ItemDisplay[(NMAG OR (RARE AND !ID)) WP10]: //Ignore All Crossbows
 //ItemDisplay[(NMAG OR (RARE AND !ID)) (lxb OR 8lx OR 6lx)]: //Ignore Light Crossbow, Arbalest, and Pellet Bow
 //ItemDisplay[(NMAG OR (RARE AND !ID)) (mxb OR 8mx OR 6mx)]: //Ignore Crossbow, Siege Crossbow, and Gorgon Crossbow
 //ItemDisplay[(NMAG OR (RARE AND !ID)) (hxb OR 8hx OR 6hx)]: //Ignore Heavy Crossbow, Ballista, and Colossus Crossbow
@@ -514,7 +514,7 @@ ItemDisplay[RW ETH]: %GRAY%E.%NAME%%WHITE%[%GRAY%Lv.%ILVL%%WHITE%]
 //─────────────────────────────────────────────────────────────────────────────────────────────────
 // Staves
 //─────────────────────────────────────────────────────────────────────────────────────────────────
-//ItemDisplay[(NMAG OR ((MAG OR RARE) AND !ID)) WP11]: //Ignore All Staves
+ItemDisplay[(NMAG OR ((MAG OR RARE) AND !ID)) WP11]: //Ignore All Staves
 //ItemDisplay[(NMAG OR ((MAG OR RARE) AND !ID)) (sst OR 8ss OR 6ss)]: //Ignore Short Staff, Jo Staff, and Walking Stick
 //ItemDisplay[(NMAG OR ((MAG OR RARE) AND !ID)) (lst OR 8ls OR 6ls)]: //Ignore Long Staff, Quarterstaff, and Stalagmite
 //ItemDisplay[(NMAG OR ((MAG OR RARE) AND !ID)) (cst OR 8cs OR 6cs)]: //Ignore Gnarled Staff, Cedar Staff, and Elder Staff
@@ -532,32 +532,32 @@ ItemDisplay[RW ETH]: %GRAY%E.%NAME%%WHITE%[%GRAY%Lv.%ILVL%%WHITE%]
 //─────────────────────────────────────────────────────────────────────────────────────────────────
 // Scepters
 //─────────────────────────────────────────────────────────────────────────────────────────────────
-//ItemDisplay[(NMAG OR ((MAG OR RARE) AND !ID)) WP13]: //Ignore All Scepters
+ItemDisplay[(NMAG OR ((MAG OR RARE) AND !ID)) WP13]: //Ignore All Scepters
 //ItemDisplay[(NMAG OR ((MAG OR RARE) AND !ID)) (scp OR 9sc OR 7sc)]: //Ignore Scepter, Rune Scepter, and Mighty Scepter
 //ItemDisplay[(NMAG OR ((MAG OR RARE) AND !ID)) (gsc OR 9qs OR 7qs)]: //Ignore Grand Scepter, Holy Water Sprinkler, and Seraph Rod
 //ItemDisplay[(NMAG OR ((MAG OR RARE) AND !ID)) (wsp OR 9ws OR 7ws)]: //Ignore War Scepter, Divine Scepter, and Caduceus
 //─────────────────────────────────────────────────────────────────────────────────────────────────
 // All Amazon Weapons
 //─────────────────────────────────────────────────────────────────────────────────────────────────
-//ItemDisplay[(NMAG OR (RARE AND !ID)) CL7]: //Ignore All Amazon Weapons
+ItemDisplay[(NMAG OR (RARE AND !ID)) CL7]: //Ignore All Amazon Weapons
 //─────────────────────────────────────────────────────────────────────────────────────────────────
 // Amazon Bows
 //─────────────────────────────────────────────────────────────────────────────────────────────────
-//ItemDisplay[(NMAG OR (RARE AND !ID)) (am1 OR am6 OR amb)]: //Ignore Stag Bow, Ashwood Bow, or Matriarchal Bow
-//ItemDisplay[(NMAG OR (RARE AND !ID)) (am2 OR am7 OR amc)]: //Ignore Reflex Bow, Ceremonial Bow, and Grand Matron Bow
+ItemDisplay[(NMAG OR (RARE AND !ID)) (am1 OR am6 OR amb)]: //Ignore Stag Bow, Ashwood Bow, or Matriarchal Bow
+ItemDisplay[(NMAG OR (RARE AND !ID)) (am2 OR am7 OR amc)]: //Ignore Reflex Bow, Ceremonial Bow, and Grand Matron Bow
 //─────────────────────────────────────────────────────────────────────────────────────────────────
 // Amazon Spears
 //─────────────────────────────────────────────────────────────────────────────────────────────────
-//ItemDisplay[(NMAG OR (RARE AND !ID)) (am3 OR am8 OR amd)]: //Ignore Maiden Spear, Ceremonial Spear, and Matriarchal Spear
-//ItemDisplay[(NMAG OR (RARE AND !ID)) (am4 OR am9 OR ame)]: //Ignore Maiden Pike, Ceremonial Pike, and Matriarchal Pike
+ItemDisplay[(NMAG OR (RARE AND !ID)) (am3 OR am8 OR amd)]: //Ignore Maiden Spear, Ceremonial Spear, and Matriarchal Spear
+ItemDisplay[(NMAG OR (RARE AND !ID)) (am4 OR am9 OR ame)]: //Ignore Maiden Pike, Ceremonial Pike, and Matriarchal Pike
 //─────────────────────────────────────────────────────────────────────────────────────────────────
 // Amazon Javelins
 //─────────────────────────────────────────────────────────────────────────────────────────────────
-//ItemDisplay[(NMAG OR ((MAG OR RARE) AND !ID)) (am5 OR ama OR amf)]: //Ignore Maiden Javelin, Ceremonial Javelin, and Matriarchal Javelin
+ItemDisplay[(NMAG OR ((MAG OR RARE) AND !ID)) (am5 OR ama OR amf)]: //Ignore Maiden Javelin, Ceremonial Javelin, and Matriarchal Javelin
 //─────────────────────────────────────────────────────────────────────────────────────────────────
 // Assassin Katars
 //─────────────────────────────────────────────────────────────────────────────────────────────────
-//ItemDisplay[(NMAG OR ((MAG OR RARE) AND !ID)) CL5]: //Ignore All Katars
+ItemDisplay[(NMAG OR ((MAG OR RARE) AND !ID)) CL5]: //Ignore All Katars
 //ItemDisplay[(NMAG OR (RARE AND !ID)) ((CL5 AND NORM) OR 9ar OR 9wb OR 9xf)]: //Ignore All Katars That Can Not Have Staffmods
 //ItemDisplay[(NMAG OR ((MAG OR RARE) AND !ID)) (ktr OR wrb OR axf OR ces OR 9wb OR 9xf OR 9cs OR 7xf OR 7cs)]: //Ignore All Katars That Can Not Have 3 Sockets
 //ItemDisplay[(NMAG OR ((MAG OR RARE) AND !ID)) (ktr OR 9ar OR 7ar)]: //Ignore Katar, Quhab, and Suwayyah
@@ -570,7 +570,7 @@ ItemDisplay[RW ETH]: %GRAY%E.%NAME%%WHITE%[%GRAY%Lv.%ILVL%%WHITE%]
 //─────────────────────────────────────────────────────────────────────────────────────────────────
 // Sorceress Orbs
 //─────────────────────────────────────────────────────────────────────────────────────────────────
-//ItemDisplay[(NMAG OR ((MAG OR RARE) AND !ID)) CL6]: //Ignore All Orbs
+ItemDisplay[(NMAG OR ((MAG OR RARE) AND !ID)) CL6]: //Ignore All Orbs
 //ItemDisplay[(NMAG OR ((MAG OR RARE) AND !ID)) CL6 !(ob5 OR oba OR obf)]: //Ignore All Orbs That Can Not Have 3 Sockets
 //ItemDisplay[(NMAG OR ((MAG OR RARE) AND !ID)) (ob1 OR ob6 OR obb)]: //Ignore Eagle Orb, Glowing Orb, and Heavenly Stone
 //ItemDisplay[(NMAG OR ((MAG OR RARE) AND !ID)) (ob2 OR ob7 OR obc)]: //Ignore Sacred Globe, Crystalline Globe, and Eldritch Orb
@@ -636,7 +636,7 @@ ItemDisplay[RW ETH]: %GRAY%E.%NAME%%WHITE%[%GRAY%Lv.%ILVL%%WHITE%]
 //─────────────────────────────────────────────────────────────────────────────────────────────────
 // Barbarian Helms
 //─────────────────────────────────────────────────────────────────────────────────────────────────
-//ItemDisplay[(NMAG OR ((MAG OR RARE) AND !ID)) CL2]:  //Ignore All Barbarian Helms
+ItemDisplay[(NMAG OR ((MAG OR RARE) AND !ID)) CL2]:  //Ignore All Barbarian Helms
 //ItemDisplay[(NMAG OR ((MAG OR RARE) AND !ID)) (ba1 OR ba6 OR bab)]: //Ignore Jawbone Cap, Jawbone Visor, and Carnage Helm
 //ItemDisplay[(NMAG OR ((MAG OR RARE) AND !ID)) (ba2 OR ba7 OR bac)]: //Ignore Fanged Helm, Lion Helm, and Fury Visor
 //ItemDisplay[(NMAG OR ((MAG OR RARE) AND !ID)) (ba3 OR ba8 OR bad)]: //Ignore Horned Helm, Rage Mask, and Destroyer Helm
@@ -645,7 +645,7 @@ ItemDisplay[RW ETH]: %GRAY%E.%NAME%%WHITE%[%GRAY%Lv.%ILVL%%WHITE%]
 //─────────────────────────────────────────────────────────────────────────────────────────────────
 // Druid Pelts
 //─────────────────────────────────────────────────────────────────────────────────────────────────
-//ItemDisplay[(NMAG OR ((MAG OR RARE) AND !ID)) CL1]: //Ignore All Druid Pelts
+ItemDisplay[(NMAG OR ((MAG OR RARE) AND !ID)) CL1]: //Ignore All Druid Pelts
 //ItemDisplay[(NMAG OR ((MAG OR RARE) AND !ID)) (dr1 OR dr6 OR drb)]: //Ignore Wolf Head, Alpha Helm, and Blood Spirit
 //ItemDisplay[(NMAG OR ((MAG OR RARE) AND !ID)) (dr2 OR dr7 OR drc)]: //Ignore Hawk Helm, Griffon Headress, and Sun Spirit
 //ItemDisplay[(NMAG OR ((MAG OR RARE) AND !ID)) (dr3 OR dr8 OR drd)]: //Ignore Antlers, Hunter's Guise, and Earth Spirit
@@ -654,7 +654,7 @@ ItemDisplay[RW ETH]: %GRAY%E.%NAME%%WHITE%[%GRAY%Lv.%ILVL%%WHITE%]
 //─────────────────────────────────────────────────────────────────────────────────────────────────
 // Necromancer Shrunken Heads
 //─────────────────────────────────────────────────────────────────────────────────────────────────
-//ItemDisplay[(NMAG OR ((MAG OR RARE) AND !ID)) CL4]: //Ignore All Necromancer Shrunken Heads
+ItemDisplay[(NMAG OR ((MAG OR RARE) AND !ID)) CL4]: //Ignore All Necromancer Shrunken Heads
 //ItemDisplay[(NMAG OR ((MAG OR RARE) AND !ID)) (ne1 OR ne6 OR neb)]: //Ignore Preserved Head, Mummified Trophy, and Minion Skull
 //ItemDisplay[(NMAG OR ((MAG OR RARE) AND !ID)) (ne2 OR ne7 OR neg)]: //Ignore Zombie Head, Fetish Trophy, and Hellspawn Skull
 //ItemDisplay[(NMAG OR ((MAG OR RARE) AND !ID)) (ne3 OR ne8 OR ned)]: //Ignore Unraveller Head, Sexton Trophy, and Overseer Skull
@@ -663,7 +663,7 @@ ItemDisplay[RW ETH]: %GRAY%E.%NAME%%WHITE%[%GRAY%Lv.%ILVL%%WHITE%]
 //─────────────────────────────────────────────────────────────────────────────────────────────────
 // Paladin Shields
 //─────────────────────────────────────────────────────────────────────────────────────────────────
-//ItemDisplay[(NMAG OR (RARE AND !ID)) CL3]: //Ignore All Paladin Shields
+ItemDisplay[(NMAG OR (RARE AND !ID)) CL3]: //Ignore All Paladin Shields
 //ItemDisplay[(NMAG OR (RARE AND !ID)) (pa1 OR pa6 OR pab)]: //Ignore Targe, Akaran Targe, and Sacred Targe
 //ItemDisplay[(NMAG OR (RARE AND !ID)) (pa2 OR pa7 OR pac)]: //Ignore Rondache, Akaran Rondache, and Sacred Rondache
 //ItemDisplay[(NMAG OR (RARE AND !ID)) (pa3 OR pa8 OR pad)]: //Ignore Heraldic Shield, Protector Shield, and Kurast Shield
@@ -674,14 +674,14 @@ ItemDisplay[RW ETH]: %GRAY%E.%NAME%%WHITE%[%GRAY%Lv.%ILVL%%WHITE%]
 //─────────────────────────────────────────────────────────────────────────────────────────────────
 //ItemDisplay[(MAG OR RARE) !ID EQ4]: //Ignore All Gloves
 //ItemDisplay[(MAG OR RARE) !ID (lgl OR xlg OR ulg)]: //Ignore Leather Gloves, Demonhide Gloves, and Bramble Mitts
-//ItemDisplay[(MAG OR RARE) !ID (vgl OR xvg OR uvg)]: //Ignore Heavy Gloves, Sharkskin Gloves, and Vampirebone Gloves
+ItemDisplay[(MAG OR RARE) !ID (vgl OR xvg OR uvg)]: //Ignore Heavy Gloves, Sharkskin Gloves, and Vampirebone Gloves
 //ItemDisplay[RARE !ID (mgl OR xmg OR umg)]: //Ignore Chain Gloves, Heavy Bracers, and Vambraces
 //ItemDisplay[RARE !ID (tgl OR xtg OR utg)]: //Ignore Light Gauntlets, Battle Gauntlets, and Crusader Gauntlets
 //ItemDisplay[RARE !ID (hgl OR xhg OR uhg)]: //Ignore Gauntlets, War Gauntlets, and Ogre Gauntlets
 //─────────────────────────────────────────────────────────────────────────────────────────────────
 // Boots
 //─────────────────────────────────────────────────────────────────────────────────────────────────
-//ItemDisplay[(MAG OR RARE) !ID EQ5]: //Ignore All Boots
+ItemDisplay[(MAG OR RARE) !ID EQ5]: //Ignore All Boots
 //ItemDisplay[(MAG OR RARE) !ID (lbt OR xlb OR ulb)]: //Ignore Boots, Demonhide Boots, and Wyrmhide Boots
 //ItemDisplay[RARE !ID (vbt OR xvb OR uvb)]: //Ignore Heavy Boots, Sharkskin Boots, and Scarabshell Boots
 //ItemDisplay[RARE !ID (mbt OR xmb OR umb)]: //Ignore Chain Boots, Mesh Boots, and Boneweave Boots
@@ -690,7 +690,7 @@ ItemDisplay[RW ETH]: %GRAY%E.%NAME%%WHITE%[%GRAY%Lv.%ILVL%%WHITE%]
 //─────────────────────────────────────────────────────────────────────────────────────────────────
 // Belts
 //─────────────────────────────────────────────────────────────────────────────────────────────────
-//ItemDisplay[(MAG OR RARE) !ID EQ6]: //Ignore All Belts
+ItemDisplay[(MAG OR RARE) !ID EQ6]: //Ignore All Belts
 //ItemDisplay[RARE !ID EQ6 NORM !hbl]: //Ignore All Belts That Do Not Have 16 Potion Slots
 //ItemDisplay[RARE !ID (lbl OR zlb OR ulc)]: //Ignore Sash, Demonhide Sash, and Spiderweb Sash
 //ItemDisplay[(MAG OR RARE) !ID (vbl OR zvb OR uvc)]: //Ignore Light Belt, Sharkskin Belt, and Vampirefang Belt
@@ -780,14 +780,14 @@ ItemDisplay[INF ci3]: %RED%Diadem%WHITE%[%GRAY%Lv.%ILVL%%WHITE%]
 //─────────────────────────────────────────────────────────────────────────────────────────────────
 // Barbarian Helms
 //─────────────────────────────────────────────────────────────────────────────────────────────────
-//ItemDisplay[INF bae]: %RED%Conqueror Crown%WHITE%[%GRAY%Lv.%ILVL%%WHITE%]
-//ItemDisplay[INF baf]: %RED%Guardian Crown%WHITE%[%GRAY%Lv.%ILVL%%WHITE%]
+ItemDisplay[INF bae]: %RED%Conqueror Crown%WHITE%[%GRAY%Lv.%ILVL%%WHITE%]
+ItemDisplay[INF baf]: %RED%Guardian Crown%WHITE%[%GRAY%Lv.%ILVL%%WHITE%]
 //─────────────────────────────────────────────────────────────────────────────────────────────────
 // Druid Pelts
 //─────────────────────────────────────────────────────────────────────────────────────────────────
-//ItemDisplay[INF drd]: %RED%Earth Spirit%WHITE%[%GRAY%Lv.%ILVL%%WHITE%]
-//ItemDisplay[INF dre]: %RED%Sky Spirit%WHITE%[%GRAY%Lv.%ILVL%%WHITE%]
-//ItemDisplay[INF drf]: %RED%Dream Spirit%WHITE%[%GRAY%Lv.%ILVL%%WHITE%]
+ItemDisplay[INF drd]: %RED%Earth Spirit%WHITE%[%GRAY%Lv.%ILVL%%WHITE%]
+ItemDisplay[INF dre]: %RED%Sky Spirit%WHITE%[%GRAY%Lv.%ILVL%%WHITE%]
+ItemDisplay[INF drf]: %RED%Dream Spirit%WHITE%[%GRAY%Lv.%ILVL%%WHITE%]
 //─────────────────────────────────────────────────────────────────────────────────────────────────
 // Necromancer Heads
 //─────────────────────────────────────────────────────────────────────────────────────────────────
@@ -966,7 +966,7 @@ ItemDisplay[NMAG !ELT !ETH !SUP WP2 !leg SOCK=0 CLVL>5]: //Maces Except Wirt's L
 ItemDisplay[NMAG !ELT !ETH !SUP WP3 SOCK=0 CLVL>5]: //Swords
 ItemDisplay[NMAG !ELT !ETH !SUP WP4 !WP5 SOCK=0 CLVL>5]: //Daggers Except Throwing Knives
 ItemDisplay[NMAG !ELT !ETH !SUP WP7 !(WP5 OR CL7) SOCK=0 CLVL>5]: //Spears Except Javelins and Amazon Weapons
-ItemDisplay[NMAG !ELT !ETH !SUP WP8 SOCK=0 CLVL>5]: //Ignore Polearms
+//ItemDisplay[NMAG !ELT !ETH !SUP WP8 SOCK=0 CLVL>5]: //Ignore Polearms
 ItemDisplay[NMAG !ELT !ETH !SUP WP9 !CL7 SOCK=0 CLVL>5]: //Bows and Crossbows Except Amazon Weapons
 ItemDisplay[NMAG !ELT !ETH !SUP EQ1 !(CL1 OR CL2) SOCK=0 CLVL>5]: //Helmets/Circlets Except Barb Helms and Druid Pelts
 ItemDisplay[NMAG !ELT !ETH !SUP EQ2 DEF<250 SOCK=0 CLVL>5]: //Body Armor Except Any with 250+ Defense
