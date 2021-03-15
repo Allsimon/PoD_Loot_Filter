@@ -336,16 +336,16 @@ ItemDisplay[maz]: %NAME% //Infernal Trial
 //─────────────────────────────────────────────────────────────────────────────────────────────────
 // Relics
 //─────────────────────────────────────────────────────────────────────────────────────────────────
-ItemDisplay[ma1]: %NAME%
-ItemDisplay[ma2]: %NAME%
-ItemDisplay[ma3]: %NAME%
-ItemDisplay[ma4]: %NAME%
-ItemDisplay[ma5]: %NAME%
-ItemDisplay[ma6]: %NAME%
-ItemDisplay[ma7]: %NAME%
-ItemDisplay[ma8]: %NAME%
-ItemDisplay[ma9]: %NAME%
-ItemDisplay[ma10]: %NAME%
+ItemDisplay[ma1]: Map. %NAME%
+ItemDisplay[ma2]: Map. %NAME%
+ItemDisplay[ma3]: Map. %NAME%
+ItemDisplay[ma4]: Map. %NAME%
+ItemDisplay[ma5]: Map. %NAME%
+ItemDisplay[ma6]: Map. %NAME%
+ItemDisplay[ma7]: Map. %NAME%
+ItemDisplay[ma8]: Map. %NAME%
+ItemDisplay[ma9]: Map. %NAME%
+ItemDisplay[ma10]: Map. %NAME%
 //╔═══════════════════════════════════════════════════════════════════════════════════════════════╗
 //║                             ▬▬▬▬▬ Catch-All for Misc Items ▬▬▬▬▬                              ║
 //╚═══════════════════════════════════════════════════════════════════════════════════════════════╝
